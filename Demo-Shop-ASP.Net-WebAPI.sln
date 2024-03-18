@@ -3,16 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.34031.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eShopSolution.WebApp", "eShopSolution.WebApp\eShopSolution.WebApp.csproj", "{586EE711-A6AC-4739-930D-1724D683C5F3}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B8F4734D-1780-4A67-9B5B-A31DB6930EBA}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoShop.Data", "DemoShop.Data\DemoShop.Data.csproj", "{DCBF8C7C-D6D2-4E42-92FF-903F5D9E5DC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoShop.Data", "DemoShop.Data\DemoShop.Data.csproj", "{DCBF8C7C-D6D2-4E42-92FF-903F5D9E5DC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoShop.Application", "DemoShop.Application\DemoShop.Application.csproj", "{2BB98720-8791-4256-B435-34C1EEA28166}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoShop.Application", "DemoShop.Application\DemoShop.Application.csproj", "{2BB98720-8791-4256-B435-34C1EEA28166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoShop.WebApp", "DemoShop.WebApp\DemoShop.WebApp.csproj", "{6078C924-BF7B-4356-9DD9-07773CB9865D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,10 +20,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{586EE711-A6AC-4739-930D-1724D683C5F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{586EE711-A6AC-4739-930D-1724D683C5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{586EE711-A6AC-4739-930D-1724D683C5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{586EE711-A6AC-4739-930D-1724D683C5F3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DCBF8C7C-D6D2-4E42-92FF-903F5D9E5DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DCBF8C7C-D6D2-4E42-92FF-903F5D9E5DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCBF8C7C-D6D2-4E42-92FF-903F5D9E5DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -32,6 +28,10 @@ Global
 		{2BB98720-8791-4256-B435-34C1EEA28166}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BB98720-8791-4256-B435-34C1EEA28166}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BB98720-8791-4256-B435-34C1EEA28166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6078C924-BF7B-4356-9DD9-07773CB9865D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6078C924-BF7B-4356-9DD9-07773CB9865D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6078C924-BF7B-4356-9DD9-07773CB9865D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6078C924-BF7B-4356-9DD9-07773CB9865D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
