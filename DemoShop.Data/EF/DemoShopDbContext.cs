@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using DemoShop.Data.Entities;
 using DemoShop.Data.Configurations;
+using DemoShop.Data.Extensions;
 
 namespace DemoShop.Data.EF
 {
@@ -15,6 +16,7 @@ namespace DemoShop.Data.EF
 
         protected override void OnModelCreating(ModelBuilder modelBuilder) 
         {
+            //Configure using Fluent API
             modelBuilder.ApplyConfiguration(new CartConfiguration());
 
             modelBuilder.ApplyConfiguration(new AppConfigConfiguration());
@@ -30,6 +32,10 @@ namespace DemoShop.Data.EF
             modelBuilder.ApplyConfiguration(new ProductTranslationConfiguration());
             modelBuilder.ApplyConfiguration(new PromotionConfiguration());
             modelBuilder.ApplyConfiguration(new TransactionConfiguration());
+
+            //Data seeding
+            modelBuilder.Seed();
+
             //base.OnModelCreating(modelBuilder);
         }
 
