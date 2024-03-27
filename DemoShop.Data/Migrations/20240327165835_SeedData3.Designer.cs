@@ -4,14 +4,16 @@ using DemoShop.Data.EF;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DemoShop.Data.Migrations
 {
     [DbContext(typeof(DemoShopDbContext))]
-    partial class DemoShopDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240327165835_SeedData3")]
+    partial class SeedData3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
